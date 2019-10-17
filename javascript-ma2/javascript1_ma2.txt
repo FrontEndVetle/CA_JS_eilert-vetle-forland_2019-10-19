@@ -1,0 +1,29 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+
+Function literals are anonymous and they have no name by default but you can give them a name by  linking them to a variable. You can use a functin literal to pass an argument to a method when you dont want to define a separate function. 
+
+2. What is the constructor?
+
+A constructor is for instance a prototype you can use as a "template" when creating new objects. You can call on the constructor function to easy create new objects without having to write the whole function again.
+
+3. What does the return statement do?
+
+The return statement stops the execution of a function and returns a value from what the function is instructed to do, depending on which value you vant to have returned. 
+
+
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+
+
+"Inside my function".
+
+5. Briefly describe scope in JavaScript.
+
+In Javascript there are 2 scopes. The local scope and the global scope. The scope determains if the variable is visable or not for to be used. If it is a global scope you can use the variable everywhere. On a local scope where you have the variable inside a function it can only be used by that function or its children. 
